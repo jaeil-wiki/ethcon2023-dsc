@@ -1,9 +1,10 @@
-import LayoutClient from '@/app/pageClient'
+import LayoutClient from "@/app/LayoutClient";
+import "./globalStyles.css";
 
 export const metadata = {
-  title: 'Gifty',
-  description: 'Gifty',
-}
+  title: "Gifty",
+  description: "Gifty",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -12,5 +13,5 @@ export default function RootLayout({ children }) {
         <LayoutClient>{children}</LayoutClient>
       </body>
     </html>
-  )
+  );
 }

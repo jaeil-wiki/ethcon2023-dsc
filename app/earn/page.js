@@ -1,4 +1,4 @@
-import PageClient from "@/app/pageClient";
+import PageClient from "@/app/earn/pageClient";
 
 export default function Page() {
   return <PageClient />;
